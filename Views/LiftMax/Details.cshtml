@@ -1,0 +1,12 @@
+﻿@model LiftMax
+
+@Model.Id
+<br />
+@Model.Date
+<br />
+@Model.Name
+<br />
+@Model.Weight
+<br />
+
+<a asp-action="Edit" class="btn btn-warning" asp-route-id="@Model.Id">Edit Max Lift</a>

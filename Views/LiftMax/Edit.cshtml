@@ -1,0 +1,25 @@
+﻿@model LiftMax
+
+<form method="post">
+    <div asp-validation-summary="All">
+
+        Id:
+        <input asp-for="Id" />
+        <br />
+
+        Date:
+        <input asp-for="Date" />
+        <br />
+
+        Name:
+        <input asp-for="Name" />
+        <br />
+
+        Weight:
+        <input asp-for="Weight" type="number" />
+        <br />
+
+        <input type="submit" value="Edit LiftMax" />
+
+    </div>
+</form>
